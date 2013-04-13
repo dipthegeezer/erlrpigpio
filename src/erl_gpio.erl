@@ -1,4 +1,4 @@
--module(gpio).
+-module(erl_gpio).
 
 -export([new/0,
          myfunction/1]).
