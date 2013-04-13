@@ -4,7 +4,7 @@ static ErlNifResourceType* erl_gpio_RESOURCE = NULL;
 
 typedef struct
 {
-  static volatile uint32_t *gpio_map
+  volatile uint32_t *gpio_map
 } erl_gpio_handle;
 
 // Prototypes
