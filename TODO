@@ -1,0 +1,5 @@
+Rough design
+
+* Each pin should be own service/process.
+* Start pin, check pin not already initialised/in use.
+* perform action and update mem.
