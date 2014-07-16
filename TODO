@@ -3,3 +3,7 @@ Rough design
 * Each pin should be own service/process.
 * Start pin, check pin not already initialised/in use.
 * perform action and update mem.
+** Use emmap in gpio_server to perform various commands. Will be similar to c_gpio?
+** check if not initialised then start erlrpigpio
+** erlrpigpio:start(pin) - if pin already started error
+** erlrpigpio:output(pin) - if pin not started error
