@@ -1,4 +1,4 @@
--module(erlrpigpio).
+-module(erlrpigpio_server).
 -behaviour(gen_server).
 -define(SERVER, ?MODULE).
 
